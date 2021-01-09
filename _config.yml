@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   manga, C++, and coffee brewing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.myhsu.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "mshockwave/blog-site"
 twitter_username: bekket_mcclane
 github_username:  mshockwave
 words_per_minute: 100
