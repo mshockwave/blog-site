@@ -4,7 +4,7 @@ date:   2019-09-05 -0800
 header:
     image: /assets/images/psycho-pass-header.jpeg
 
-categories: anime
+categories: hobby
 tags:
     - Anime Review
     - Written in Traditional Chinese

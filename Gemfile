@@ -9,17 +9,12 @@ source "https://rubygems.org"
 # Happy Jekylling!
 #gem "jekyll", "~> 4.2.0"
 gem "github-pages", group: :jekyll_plugins
-
-gem "jekyll-paginate"
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
-
-gem 'jekyll-include-cache'
 gem "minimal-mistakes-jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'jekyll-include-cache'
+  gem "jekyll-paginate"
   gem "jekyll-feed"
   gem "jekyll-archives"
 end
