@@ -33,6 +33,7 @@ words_per_minute: 100
 
 # Build settings
 #theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-include-cache
