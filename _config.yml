@@ -34,7 +34,7 @@ words_per_minute: 100
 # Build settings
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-include-cache
   - jekyll-paginate
@@ -53,12 +53,15 @@ author:
     - label: "Believe in Code"
       icon: "fas fa-fw fa-link"
       url: "https://myhsu.xyz"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/bekket_mcclane"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mshockwave"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bekketmcclane/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/bekket_mcclane"
 
 # Default values
 defaults:
@@ -87,6 +90,7 @@ defaults:
 
 include:
   - _pages
+  - _data
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -115,3 +119,13 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+footer:
+  links:
+    - label: "Source of this site"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mshockwave/blog-site"
+    - label: "About"
+      url: "/about/"
+    - label: "Contact"
+      url: "https://myhsu.xyz"
