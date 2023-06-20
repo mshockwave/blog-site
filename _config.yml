@@ -20,7 +20,7 @@
 
 title: Min's Blog
 email: yihshyng223@gmail.com
-name: &name "Min-Yih Hsu"
+name: &name Min-Yih "Min" Hsu
 description: >- # this means to ignore newlines until "baseurl:"
   Min-Yih Hsu's blog site. A mix of anime, compiler engineering,
   manga, C++, and coffee brewing.
@@ -47,21 +47,21 @@ paginate: 3
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/min-thumbnail.png"
-  bio              : "Full time PhD student and compiler freak; Part time coffee junkies and motorcycle rider"
-  location         : "Orange County, CA"
+  bio              : "Full time compiler freak; part time coffee junkies"
+  location         : "California, United States"
   links:
-    - label: "Believe in Code"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://myhsu.xyz"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mshockwave"
+    #- label: "GitHub"
+    #  icon: "fab fa-fw fa-github"
+    #  url: "https://github.com/mshockwave"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bekketmcclane/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/bekket_mcclane"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/bekket_mcclane"
 
 # Default values
 defaults:
@@ -71,7 +71,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      classes: wide
+      author_profile: true
       show_date: true
       #read_time: true
       #comments: true
